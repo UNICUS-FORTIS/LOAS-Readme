@@ -1,17 +1,16 @@
 # <p align="center">✨ L O A S ✨</p>
 <p align="center">
-<img width="99%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/b5183ae6-09bd-4293-aee0-55c58d97c6e4">
+<img width="99%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/c6ff0b5a-1fbc-4738-95f8-e4ae3838daad">
 <br>
 <br>
 <img width="35%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/5e386e71-63a7-4a96-9570-274c7614cf82"/>
 
 #### <p align="center">LOAS (LostArk States) 는 SmileGate RPG 사의 Lost Ark Open API Developer Program 을 이용하여 만든<br>MMORPG 게임 LostArk 컨텐츠 정보 검색 애플리케이션입니다.<br></br></p>
 
-
 <p align="center">
   <a href="https://apps.apple.com/kr/app/loas-%EB%A1%9C%EC%95%84-%EC%BA%90%EB%A6%AD%ED%84%B0-%EC%A0%95%EB%B3%B4-%EA%B2%80%EC%83%89/id6470238290" target="_blank" rel="noopener noreferrer">앱스토어에서 LOAS 보기</a>
 </p>
-
+<br>
 
 <p>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/37f0bbc0-2784-47f7-b291-26839669f554"/>
@@ -205,7 +204,7 @@ iOS 15.0
 
 ## 회고 & Future Action
 
-<img width="80%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/2b5fc035-8dbc-4968-8f1d-3772292e7015"/>
+<p align="center"><img width="80%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/2b5fc035-8dbc-4968-8f1d-3772292e7015"/></p>
 
 - 2023년 10월 25일 출시부터 2024년 3월 16일 기준으로 앱 노출 수 4.5만, 페이지 조회수 3200건, 컨버전률 1.82%, 전체 다운로드 수 574 건의 LOAS 는 제 첫 출시 프로젝트로 제가 너무나도 좋아하는 게임과 관련된 앱을 출시함으로서 현재까지 약 10건의 업데이트를 진행했습니다.
 - 협업 프로젝트 플랫폼 '렛플' 의 운영자께서 앱 내 1:1 문의를 통해 LOAS 의 소개를 메인 페이지에 게시해주셨고 많은 분들의 긍정적인 피드백을 얻을 수 있었습니다.
