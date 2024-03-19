@@ -1,12 +1,11 @@
 # <p align="center">✨ L O A S ✨</p>
 <p align="center">
-<img width="99%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/1819b6f3-b6ad-4abb-b351-f5be432e63e5">
+<img width="99%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/b5183ae6-09bd-4293-aee0-55c58d97c6e4">
 <br>
 <br>
 <img width="35%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/5e386e71-63a7-4a96-9570-274c7614cf82"/>
 
 #### <p align="center">LOAS (LostArk States) 는 SmileGate RPG 사의 Lost Ark Open API Developer Program 을 이용하여 만든<br>MMORPG 게임 LostArk 컨텐츠 정보 검색 애플리케이션입니다.<br></br></p>
-
 
 <p>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/37f0bbc0-2784-47f7-b291-26839669f554"/>
@@ -26,6 +25,37 @@
 ## Open API 에 대한 기여 🎊
 앱 구현 중 API 에서 받을 수 있는 '각인' 이라는 항목의 아이콘이 캐릭터 스펙 대비 부족한 사항에 대하여 API 디벨로퍼팀 측으로 아이콘 에셋을 확보 할 수 있는 방법에 대하여 문의하였습니다.
 그 결과 디벨로퍼팀 측에서 캐릭터 스팩대로 '각인 아이콘' 을 배포하는것으로 API 를 업데이트 하였습니다.
+
+## 최소 요구 버전 🎀
+iOS 15.0
+
+## 앱스토어 Update History 🎀
+##### 1.0.0 
+- 출시
+##### 1.1.0
+- 장비 아이템 상세 페이지 추가
+- 장착한 룬 등급에 따른 스킬 페이지의 룬 효과 색상 추가
+- 각 고대 유물 영웅 희귀 고급 아이템 등급에 따른 색상을 인게임 색상과 동일하게 변경
+- IPhone 11 Pro, IPhone 12 Mini, 기종에서 장비 섹션이 너무 좁게 보이는 현상을 수정
+- 그 외 IPhone 8 이상의 다른 기종에서 장비 섹션의 여백을 화면의 0.03% 확대
+##### 1.2.0
+- 주간 도전 컨텐츠 메뉴 추가
+##### 1.2.1
+- 버그 수정 : iOS15 버전에서 카드 이펙트 섹션이 제대로 표현되지 않는 사항 수정
+##### 1.2.2
+- LOAS 로직 오류로 인해 캐릭터의 엘릭서 정보를 제대로 표시 할 수 없었던 사항 수정
+##### 1.3.0
+- 프로키온의 나침반 기능 추가
+##### 1.3.1
+- 앱 버전 업데이트 개선 : 앱에 캐싱된 버전 데이터로 인해 최신 버전으로 업데이트 할 수 없었던 사항을 개선
+##### 1.3.2
+- 아바타 항목 표시 수정 : 아바타 항목 중 '이동효과' 아바타를 제대로 표시 할 수 없었던 사항을 수정
+##### 1.3.3
+- 오류 수정: 메인 화면에서 '공지' 와 '점검' 항목이 뒤바뀌어있던 오류를 수정
+##### 1.4.0
+- 아이템 거래소 검색 기능 업데이트
+##### 1.4.1
+- 오류 수정: 앱 내에서 로스트아크 공식 홈페이지 접속 시 화면을 제대로 표시하지 못하던 사항 수정
  
 ## Main Features ✨
 - 대표 캐릭터 지정 및 변경
