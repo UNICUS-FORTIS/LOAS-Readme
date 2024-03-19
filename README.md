@@ -235,14 +235,14 @@ iOS 15.0
 </p>
 - 가로로 스와이프하면 레벨 별 보상을 확인 할 수 있습니다.
 
-#### 3. 주간 캘린더 컨텐츠 (프로키온의 나침반)
+#### 4. 주간 캘린더 컨텐츠 (프로키온의 나침반)
 
 <img width="20%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/64b0de62-92ff-4a52-8254-ad6997974f40"/>
 <img width="20%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/6ea6f470-de1e-447e-bee4-3f271fe0fe06"/>
 
 - API 응답을 날짜별, 컨텐츠별 분류하는 로직을 구성하여 일주일간 일어나는 일일 컨텐츠의 목록과 참여 가능한 시간을 표시하였습니다.
 
-#### 4. 관심 캐릭터 목록 화면
+#### 5. 관심 캐릭터 목록 화면
 
 <p>
 <img width="20%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/21030f99-5045-4901-a64c-2b402f0e53c1"/>
