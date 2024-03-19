@@ -7,6 +7,8 @@
 
 #### <p align="center">LOAS (LostArk States) 는 SmileGate RPG 사의 Lost Ark Open API Developer Program 을 이용하여 만든<br>MMORPG 게임 LostArk 컨텐츠 정보 검색 애플리케이션입니다.<br></br></p>
 
+
+#### <p align="center">[앱스토어 바로가기](https://apps.apple.com/kr/app/loas-%EB%A1%9C%EC%95%84-%EC%BA%90%EB%A6%AD%ED%84%B0-%EC%A0%95%EB%B3%B4-%EA%B2%80%EC%83%89/id6470238290)</p>
 <p>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/37f0bbc0-2784-47f7-b291-26839669f554"/>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/7340a696-ccb3-4107-93b3-f426d5fb5593"/>
