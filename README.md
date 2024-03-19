@@ -9,8 +9,9 @@
 
 
 <p align="center">
-  <a href="https://apps.apple.com/kr/app/loas-%EB%A1%9C%EC%95%84-%EC%BA%90%EB%A6%AD%ED%84%B0-%EC%A0%95%EB%B3%B4-%EA%B2%80%EC%83%89/id6470238290" target="_blank">앱스토어에서 LOAS 보기</a>
+  <a href="https://apps.apple.com/kr/app/loas-%EB%A1%9C%EC%95%84-%EC%BA%90%EB%A6%AD%ED%84%B0-%EC%A0%95%EB%B3%B4-%EA%B2%80%EC%83%89/id6470238290" target="_blank" rel="noopener noreferrer">앱스토어에서 LOAS 보기</a>
 </p>
+
 
 <p>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/37f0bbc0-2784-47f7-b291-26839669f554"/>
