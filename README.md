@@ -35,6 +35,10 @@
 iOS 15.0
 
 ## 앱스토어 Update History 🎀
+
+<details>
+<summary>업데이트 내용 보기</summary>
+
 ##### 1.0.0 
 - 출시
 ##### 1.1.0
@@ -61,7 +65,9 @@ iOS 15.0
 - 아이템 거래소 검색 기능 업데이트
 ##### 1.4.1
 - 오류 수정: 앱 내에서 로스트아크 공식 홈페이지 접속 시 화면을 제대로 표시하지 못하던 사항 수정
- 
+</details>
+
+
 ## Main Features ✨
 - 대표 캐릭터 지정 및 변경
 - 캐릭터 검색
@@ -94,17 +100,17 @@ iOS 15.0
 - 캐릭터가 달성한 컨텐츠에 따라 다른 유동적인 API 의 HTML 마크다운 응답값에 대응하도록 다이나믹하게 파싱 가능한 모델을 개발하여 로스트아크의 모든 캐릭터 스팩을 보여 줄 수 있도록 기능을 구현하였습니다. 또 이후 게임 컨텐츠 업데이트로 인해 새로운 능력치가 등장 할 경우 유지 보수가 용이하도록 하였습니다.
 - Realm Swift를 사용하여 자신이 원하는 캐릭터를 메인 화면에 지정 또는 이후 다른 캐릭터로 변경 할 수 있고 최근 검색한 캐릭터의 히스토리, 관심 캐릭터를 등록하는 기능을 구현하였습니다.
 - Kingfisher 를 사용하여 이미지 캐싱과 로드를 간편하게 구현하였습니다.
-- ScollView 와 Collection View 를 조합하여 Tab 기능을 구현하여 각각의 정보를 Grouping 였습니다.
+- ScollView 와 Collection View 를 조합하여 Tab 기능을 구현하는것으로 각각의 정보를 Grouping 였습니다.
 - 많은 페이지에서 Compositional Layout 을 구현 시 반복되는 코드를 피하기 위하여 필요한 메서드들을 확장으로 구현해 코드의 중복을 최소화 하였습니다.
-- DispatchGroup 을 사용하여 데이터의 로드가 완료 된 이후 안정적으로 화면을 표시 할 수 있도록 하였습니다.
-- 추후 API 업데이트에 대응 할 수 있도록 Alamofire 의 URLRequestConvertible 을 사용하여 Network Router 를 추상화 하였습니다.
+- **DispatchGroup** 을 사용하여 데이터의 로드가 완료 된 이후 안정적으로 화면을 표시 할 수 있도록 하였습니다.
+- 추후 API 업데이트에 대응 할 수 있도록 Alamofire 의 **URLRequestConvertible** 을 사용하여 **Network Router 를 추상화** 하였습니다.
 - 메이저, 마이너, 패치 업데이트에 대해 강제업데이트 또는 선택적 업데이트 기능을 구현하였습니다.
 - 강제 업데이트가 필요한 경우 앱이 실행 될 때 SceneDelegate 에서 업데이트 가능 여부를 판단하고 Alert 을 노출해 앱스토어로 유도 하였습니다.
 - 디바이스 가로 너비 812 해상도 이하의 작은 화면에 대한 대응처리로 낮은 해상도의 디바이스에서도 자연스러운 UI가 표현 될 수 있도록 하였습니다.
 
 ## 개발시 고려 사항 💎
 
-1. 메인 페이지
+**1. 메인 페이지**
 <p>
 <img width="22%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/3b7d3036-e465-4f3d-8cac-c1b8ae7f1d9d"/>
 <img width="22%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/357282d4-282c-4233-bfbb-f2ebc2353acd"/>
@@ -119,14 +125,16 @@ iOS 15.0
 - 메인 뷰컨트롤러를 싱글톤으로 구성해 앱이 메모리에서 내려가지 않는 한 로딩된 정보는 API 서버에 다시 요청하지 않도록 하고 실시간으로 게임 컨텐츠의 변화가 일어나지 않으므로 Pull to Refresh 기능은 구현하지 않았습니다.
 - 각 섹션의 데이터가 비동기로 로드 될 때마다 컬렉션뷰가 리로드되어 화면이 깜빡이는 현상을 방지하기 위해 DispatchGroup 을 사용해 데이터의 로드가 완료 된 이후 Compositional Layout 의 메서드가 동작하도록 로직을 구현하였습니다.
 
-2. 사이드메뉴
+**2.사이드메뉴** 
+<br>
+<br>
 <img width="20%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/191aeab5-3e73-4814-b03c-dfe686ca1549"/>
 
 - 좀더 손쉽게 부가 메뉴에 접근하기 위하여 사이드메뉴를 사용했습니다.
 - 사이드메뉴의 호출은 네비게이션 영역의 아이콘 터치 또는 오른쪽 스와이프 제스처를 사용했습니다.
 - 최신 업데이트 가능 여부를 알 수 있도록 최하단에 부가 메뉴를 배치했습니다.
 
-3. 캐릭터 상세정보
+**3. 캐릭터 상세정보**
 <p>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/be49f6c2-723c-4ff6-aac9-4fcbe0210141"/>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/eb775656-c528-4368-8d9f-2967d99af8de"/>
@@ -157,7 +165,7 @@ iOS 15.0
 - 보유 캐릭터의 탭을 터치하면 해당 계정 내 모든 서버의 모든 캐릭터가 리스팅됩니다. 모티브는 영화의 마지막 엔딩 크레딧에서 얻었으며 캐릭터명을 터치하면 해당 캐릭터를 즉시 검색합니다.
 - 네비게이션 영역의 우측 상단의 하트 아이콘을 터치하면 관심 캐릭터로 등록되며 메인화면의 네비게이션 영역의 동일한 아이콘에서 관심 캐릭터를 모아서 볼 수 있습니다.
 
-4. 거래소
+**4. 거래소**
 <p>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/b3ee4b6d-45d8-44dd-aa76-c4fe7ef0c519"/>
 <img width="19%" src="https://github.com/UNICUS-FORTIS/LOAS-Readme/assets/110699030/fa00f19c-8b07-4a9a-b6fe-a63c5e672043"/>
